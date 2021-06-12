@@ -36,16 +36,16 @@
     "@types/passport-local": "^1.0.33",
     "@types/passport-local-mongoose": "^4.0.13"
   },
-  "description": "A websit for COMP229 lab2",
+  "description": "Assignment 2 - COMP229",
   "main":"server.js",
   "repository":{
     "type": "git",
-    "url": "git+https://github.com/kitatinternet/portfolio_2.git"
+    "url": "https://github.com/hkpark97/COMP229-S2021-Assignment2"
   },
-  "author": "Chun Kit Lam",
+  "author": "Hyekyeong Park",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kitatinternet/portfolio_2/issues"
+    "url": "https://github.com/hkpark97/COMP229-S2021-Assignment2/issues"
   },
-  "homepage": "https://github.com/kitatinternet/portfolio_2#readme"
+  "homepage": "https://github.com/hkpark97/COMP229-S2021-Assignment2"
 }

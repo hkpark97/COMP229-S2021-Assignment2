@@ -2,8 +2,7 @@
  * @file 
  * app.js
  *
- * Chun Kit Lam, 301158152, 28Feb2021
- * COMP229–Web Application Development Assignment 2
+ * Hyekyeong Park || 301148613 || COMP229 || Assignment2
  */
 
 //installed 3rd party packages
