@@ -1,3 +1,4 @@
+// COMP229-S2021-Assignment2 || Hyekyeong Park || 301148613 || COMP229 || Assignment2
 // IIFE -- Immediately Invoked Function Expression
 (function(){
 
