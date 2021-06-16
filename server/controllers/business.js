@@ -12,18 +12,18 @@ let mongoose = require('mongoose');
 let Business = require('../models/business');
 var mysort = { name: 1 };
 
-module.exports.displayBusinessContectList =  (req, res, next) =>{    
-    Business.find((err, contectList) => {
+module.exports.displayBusinessContactList =  (req, res, next) =>{    
+    Business.find((err, contactList) => {
         if(err)
         {
             return console.error(err);
         }
         else
         {
-            //console.log(contectList);
+            //console.log(contactList);
             res.render('business/list', 
-            {title:'Business Contect',
-             ContectList: contectList, 
+            {title:'Business Contact',
+             ContactList: contactList, 
              displayName: req.user ? req.user.displayName : ''});
             
         }
@@ -31,7 +31,7 @@ module.exports.displayBusinessContectList =  (req, res, next) =>{
 }
 
 module.exports.displayAddPage = (req, res, next)=>{
-    res.render('business/add', {title:'Add Business Contect', 
+    res.render('business/add', {title:'Add Business Contact', 
     displayName: req.user ? req.user.displayName : ''});
 }
 

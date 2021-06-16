@@ -26,17 +26,17 @@
                 </tr>
 
                 <!-- repeatable temple row-->
-                <% for(let count = 0; count < ContectList.length; count++) { %>
+                <% for(let count = 0; count < ContactList.length; count++) { %>
                     <tr class="d-flex">
-                        <td class="text-center col-3"><%= ContectList[count].name %></td>
-                        <td class="text-center col-2"><%= ContectList[count].number %></td>
-                        <td class="text-center col-3"> <%= ContectList[count].email %></td>
+                        <td class="text-center col-3"><%= ContactList[count].name %></td>
+                        <td class="text-center col-2"><%= ContactList[count].number %></td>
+                        <td class="text-center col-3"> <%= ContactList[count].email %></td>
                         <td class="text-center col-2">
-                            <a href="/business/update/<%= ContectList[count]._id %>" class="btn btn-primary btn-sm">
+                            <a href="/business/update/<%= ContactList[count]._id %>" class="btn btn-primary btn-sm">
                             <i class="fas fa-pencil-alt"></i> Update</a>
                         </td>
                         <td class="text-center col-2">
-                            <a href="/business/delete/<%= ContectList[count]._id %>" class="btn btn-danger btn-sm">
+                            <a href="/business/delete/<%= ContactList[count]._id %>" class="btn btn-danger btn-sm">
                             <i class="fas fa-trash-alt"></i> Delete</a>
                         </td>
                     </tr>

@@ -21,7 +21,7 @@ let sPost = '';
 /* GET home page. */
 router.get('/', indexController.displayHomePage);
 
-/* GET home page. received contectMe result*/
+/* GET home page. received contactMe result*/
 router.get('/home', function(req, res, next) {
   res.render('home', 
   { title: 'Home',

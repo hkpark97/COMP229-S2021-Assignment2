@@ -29,13 +29,13 @@ function requireAuth(req, res, next)
     next();
 }
 
-/* GET Route for the Business Contect List page - READ Operation */
+/* GET Route for the Business Contact List page - READ Operation */
 //var mysort = { name: 1 };
 
 // only list and update view need requireAuth 
-router.get('/', requireAuth, businessController.displayBusinessContectList);
+router.get('/', requireAuth, businessController.displayBusinessContactList);
 
-router.get('/list', requireAuth, businessController.displayBusinessContectList);
+router.get('/list', requireAuth, businessController.displayBusinessContactList);
 
 /* GET Route for displaying the Add page - CREATE Operation */
 router.get('/add', businessController.displayAddPage);
