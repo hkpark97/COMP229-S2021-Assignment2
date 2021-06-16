@@ -11,7 +11,7 @@
         for(button of deleteButtons)
         {
             button.addEventListener('click', (event)=>{
-                if(!confirm("Are you sure?"))
+                if(!confirm("Do you want to delete?"))
                 {
                     event.preventDefault();
                     window.location.assign('/business/list');
